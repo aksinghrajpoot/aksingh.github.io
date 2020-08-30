@@ -1,313 +1,122 @@
 <!DOCTYPE html>
 <html lang="en">
-<!-- Basic -->
-
 <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0"/>
+  <title>Starter Template - Materialize</title>
 
-    <!-- Mobile Metas -->
-    <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
-
-    <!-- Site Metas -->
-    <title>Mytech Official</title>
-    <meta name="keywords" content="">
-    <meta name="description" content="">
-    <meta name="author" content="">
-
-    <!-- Site Icons -->
-    <link rel="shortcut icon" href="#" type="image/x-icon" />
-    <link rel="apple-touch-icon" href="#" />
-
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <!-- Pogo Slider CSS -->
-    <link rel="stylesheet" href="css/pogo-slider.min.css">
-    <!-- Site CSS -->
-    <link rel="stylesheet" href="css/style.css">
-    <!-- Responsive CSS -->
-    <link rel="stylesheet" href="css/responsive.css">
-    <!-- Custom CSS -->
-    <link rel="stylesheet" href="css/custom.css">
-
-    <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-    <![endif]-->
-
+  <!-- CSS  -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
 </head>
+<body>
+  <nav class="light-blue lighten-1" role="navigation">
+    <div class="nav-wrapper container"><a id="logo-container" href="#" class="brand-logo">Logo</a>
+      <ul class="right hide-on-med-and-down">
+        <li><a href="#">Navbar Link</a></li>
+      </ul>
 
-<body id="home" data-spy="scroll" data-target="#navbar-wd" data-offset="98">
-
-    <!-- LOADER -->
-    <div id="preloader">
-        <div class="loader">
-            <img src="images/loader.gif" alt="#" />
-        </div>
+      <ul id="nav-mobile" class="sidenav">
+        <li><a href="#">Navbar Link</a></li>
+      </ul>
+      <a href="#" data-target="nav-mobile" class="sidenav-trigger"><i class="material-icons">menu</i></a>
     </div>
-    <!-- end loader -->
-    <!-- END LOADER -->
+  </nav>
+  <div class="section no-pad-bot" id="index-banner">
+    <div class="container">
+      <br><br>
+      <h1 class="header center orange-text">Starter Template</h1>
+      <div class="row center">
+        <h5 class="header col s12 light">A modern responsive front-end framework based on Material Design</h5>
+      </div>
+      <div class="row center">
+        <a href="http://materializecss.com/getting-started.html" id="download-button" class="btn-large waves-effect waves-light orange">Get Started</a>
+      </div>
+      <br><br>
 
-    <!-- Start header -->
-    <header class="top-header">
-        <nav class="navbar header-nav navbar-expand-lg">
-            <div class="container-fluid">
-                <a class="navbar-brand" href="index.html">Mytech Official</a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-wd" aria-controls="navbar-wd" aria-expanded="false" aria-label="Toggle navigation">
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                </button>
-                <div class="collapse navbar-collapse justify-content-end" id="navbar-wd">
-                    <ul class="navbar-nav">
-                        <li><a class="nav-link active" href="index.html">Home</a></li>
-                        <li><a class="nav-link" href="about.html">About-us</a></li>
-                        <li><a class="nav-link" href="cycv.html">create your cv</a></li>
-                        <li><a class="nav-link" href="contact.html">Contact Us</a></li>
-                        <li><a class="nav-link active" style="background:#fff;color:#000;" href="contact.html">Signup/login</a></li>
-                    </ul>
-                </div>
-                <div class="search-box">
-                    <input type="text" class="search-txt" placeholder="Search">
-                    <a class="search-btn">
-                        <img src="images/search_icon.png" alt="#" />
-                    </a>
-                </div>
-            </div>
-        </nav>
-    </header>
-    <!-- End header -->
-
-    <!-- Start Banner -->
-    <div class="ulockd-home-slider">
-        <div class="container-fluid">
-            <div class="row">
-                <div class="pogoSlider" id="js-main-slider">
-                    <div class="pogoSlider-slide" style="background-image:url(images/slider-01.jpg);">
-                        <div class="container">
-                            <div class="row">
-                                <div class="col-md-12">
-                                    <div class="slide_text">
-                                        <h3><span class="theme_color">You're</span> Welcome</h3>
-                                        <h4><br>TO MYTECH OFFICIAL</h4>
-                                        <br>
-                                        
-                                        <a class="contact_bt" href="#">Contact us</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="pogoSlider-slide" style="background-image:url(images/slider-01.jpg);">
-                        <div class="container">
-                            <div class="row">
-                                <div class="col-md-12">
-                                    <div class="slide_text">
-                                        <h3><span class="theme_color">GET</span> TIPS & sTRICKS</h3>
-                                        <br>
-                                        <h4>EDUCATION <br>SCIENCE & TECHNOLOGY</h4>
-                                        <br>
-                                        <p>Showcase your Profile to the world
-                                            <br>using online CV builder and Get Hired Faster</p>
-                                        <a class="contact_bt" href="#">Contact us</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!-- .pogoSlider -->
-            </div>
-        </div>
     </div>
-    <!-- End Banner -->
+  </div>
 
-    <div class="section layout_padding">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-12">
-                    <div class="full center">
-                        <div class="heading_main text_align_center">
-                            <h2><span class="theme_color">WE CAN</span> SHARE A VALUEABLE KNOWLEDGE</h2>
-                            <p class="large">You will get here a lot of contents</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
+
+  <div class="container">
+    <div class="section">
+
+      <!--   Icon Section   -->
+      <div class="row">
+        <div class="col s12 m4">
+          <div class="icon-block">
+            <h2 class="center light-blue-text"><i class="material-icons">flash_on</i></h2>
+            <h5 class="center">Speeds up development</h5>
+
+            <p class="light">We did most of the heavy lifting for you to provide a default stylings that incorporate our custom components. Additionally, we refined animations and transitions to provide a smoother experience for developers.</p>
+          </div>
         </div>
+
+        <div class="col s12 m4">
+          <div class="icon-block">
+            <h2 class="center light-blue-text"><i class="material-icons">group</i></h2>
+            <h5 class="center">User Experience Focused</h5>
+
+            <p class="light">By utilizing elements and principles of Material Design, we were able to create a framework that incorporates components and animations that provide more feedback to users. Additionally, a single underlying responsive system across all platforms allow for a more unified user experience.</p>
+          </div>
+        </div>
+
+        <div class="col s12 m4">
+          <div class="icon-block">
+            <h2 class="center light-blue-text"><i class="material-icons">settings</i></h2>
+            <h5 class="center">Easy to work with</h5>
+
+            <p class="light">We have provided detailed documentation as well as specific code examples to help new users get started. We are also always open to feedback and can answer any questions a user may have about Materialize.</p>
+          </div>
+        </div>
+      </div>
+
     </div>
+    <br><br>
+  </div>
 
-    <!-- section -->
-    <div class="section layout_padding theme_bg">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-6 col-md-6 col-sm-12 text_align_center">
-                    <div class="full">
-                        <img class="img-responsive" src="images/resume_img.png" alt="#" />
-                    </div>
-                </div>
+  <footer class="page-footer orange">
+    <div class="container">
+      <div class="row">
+        <div class="col l6 s12">
+          <h5 class="white-text">Company Bio</h5>
+          <p class="grey-text text-lighten-4">We are a team of college students working on this project like it's our full time job. Any amount would help support and continue development on this project and is greatly appreciated.</p>
 
-                <div class="col-lg-6 col-md-6 col-sm-12 white_fonts">
-                    <h3 class="small_heading">A LOT OF MATERIALS AVAILABLE HERE</h3>
-                    <p>HELP YOURSELF BY GAINING HERE A LOT OF VALUABLE MATERIALS HERE</p>
-                    <p>Welcome to this site</p>
-                    <a href="#" class="hvr-radial-out button-theme">Get Started ></a>
-                </div>
-            </div>
+
         </div>
+        <div class="col l3 s12">
+          <h5 class="white-text">Settings</h5>
+          <ul>
+            <li><a class="white-text" href="#!">Link 1</a></li>
+            <li><a class="white-text" href="#!">Link 2</a></li>
+            <li><a class="white-text" href="#!">Link 3</a></li>
+            <li><a class="white-text" href="#!">Link 4</a></li>
+          </ul>
+        </div>
+        <div class="col l3 s12">
+          <h5 class="white-text">Connect</h5>
+          <ul>
+            <li><a class="white-text" href="#!">Link 1</a></li>
+            <li><a class="white-text" href="#!">Link 2</a></li>
+            <li><a class="white-text" href="#!">Link 3</a></li>
+            <li><a class="white-text" href="#!">Link 4</a></li>
+          </ul>
+        </div>
+      </div>
     </div>
-    <!-- end section -->
-
-    <!-- section -->
-    <div class="section layout_padding">
-        <div class="container">
-
-            <div class="row">
-                <div class="col-md-12">
-                    <div class="full center margin-bottom_30">
-                        <div class="heading_main text_align_center">
-                            <h2><span class="theme_color">CHOOSE A</span> PROFESSIONAL DESIGN</h2>
-                            <p class="large">Resume</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="row">
-                <div class="col-lg-12">
-                    <div id="demo" class="carousel slide" data-ride="carousel">
-
-                      
-                        <!-- Left and right controls -->
-                      
-
-                <div class="col-lg-12">
-                    <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their</p>
-                </div>
-
-                <div class="col-lg-12">
-                    <div class="full center">
-                        <a href="about.html" class="hvr-radial-out button-theme">See More ></a>
-                    </div>
-                </div>
-
-            </div>
-
-        </div>
+    <div class="footer-copyright">
+      <div class="container">
+      Made by <a class="orange-text text-lighten-3" href="http://materializecss.com">Materialize</a>
+      </div>
     </div>
-    <!-- end section -->
-
-    <!-- section -->
-    <div class="section layout_padding theme_bg">
-        <div class="container">
-            <div class="row">
-
-                <div class="col-lg-6 col-md-6 col-sm-12 white_fonts">
-                    <h3 class="small_heading">CREATE PERSONALISED CV </h3>
-                    <p>HELP YOUR NEXT CAREER MOVE MORE SMOOTHER AND MORE EFFICIENT</p>
-                    <p>ss normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in theirss normal distribution of letters, as opposed to using 'Content here, content here', making it look like..</p>
-                        <p><a href="about.html" class="hvr-radial-out button-theme">Read more ></a></p>
-                </div>
-
-                <div class="col-lg-6 col-md-6 col-sm-12 text_align_center">
-                    <div class="full">
-                        <img class="img-responsive" src="images/resume_img2.png" alt="#" />
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- end section -->
-
-    <!-- Start Footer -->
-    <footer class="footer-box">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <div class="logo">
-                        <a href="index.html"></a>
-                    </div>
-                </div>
-                <div class="col-lg-12 white_fonts">
-                    <h4 class="text-align">Contact Us</h4>
-                </div>
-                <div class="margin-top_30 col-md-8 offset-md-2 white_fonts">
-                    <div class="row">
-                        <div class="col-md-4">
-                            <div class="full icon text_align_center">
-                                <img src="images/social1.png">
-                            </div>
-                            <div class="full white_fonts text_align_center">
-                                <p>INDIA
-                                    <br>Prayagraj</p>
-                            </div>
-                        </div>
-                        <div class="col-md-4">
-                            <div class="full icon text_align_center">
-                                <img src="images/social2.png">
-                            </div>
-                            <div class="full white_fonts text_align_center">
-                                <p>officialmytech@gmail.com
-                                    </p>
-                            </div>
-                        
-                            
-                    </div>
-                </div>
-
-            </div>
-            <div class="row white_fonts margin-top_30">
-                <div class="col-lg-12">
-                    <div class="full">
-                        <div class="center">
-                            <ul class="social_icon">
-                                <li><a href="https://twitter.com/mytechofficial.in"><i class="fa fa-facebook-f"></i></a></li>
-                                <li><a href="https://twitter.com/mytech22"><i class="fa fa-twitter"></i></a></li>
-                                <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-                                <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </footer>
-    <!-- End Footer -->
-
-    <div class="footer_bottom">
-        <div class="container">
-            <div class="row">
-                <div class="col-12">
-                    <p class="crp">© 2020 Mytech Official . All Rights Reserved.</p>
-                    <ul class="bottom_menu">
-                        <li><a href="#">About Us</a></li>
-                        <li><a href="#"></a></li>
-                        <li><a href="contact.html">Contact us</a></li>
-                        <li><a href="#">Terms of Service</a></li>
-                        <li><a href="#">Privacy</a></li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <a href="#" id="scroll-to-top" class="hvr-radial-out"><i class="fa fa-angle-up"></i></a>
+  </footer>
 
 
-    <!-- ALL JS FILES -->
-    <script src="js/jquery.min.js"></script>
-    <script src="js/popper.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <!-- ALL PLUGINS -->
-    <script src="js/jquery.magnific-popup.min.js"></script>
-    <script src="js/jquery.pogo-slider.min.js"></script>
-    <script src="js/slider-index.js"></script>
-    <script src="js/smoothscroll.js"></script>
-    <script src="js/form-validator.min.js"></script>
-    <script src="js/contact-form-script.js"></script>
-    <script src="js/isotope.min.js"></script>
-    <script src="js/images-loded.min.js"></script>
-    <script src="js/custom.js"></script>
-</body>
+  <!--  Scripts-->
+  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <script src="js/materialize.js"></script>
+  <script src="js/init.js"></script>
 
+  </body>
 </html>
