@@ -1,0 +1,6 @@
+.navbar-dark .navbar-nav .nav-link{
+    color: rgba(255,255,255,.80);
+}
+.navbar .btn:hover{
+    background: red!important;
+}
