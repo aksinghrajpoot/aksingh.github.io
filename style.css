@@ -1,6 +1,39 @@
-.navbar-dark .navbar-nav .nav-link{
-    color: rgba(255,255,255,.80);
+* {
+    box-sizing: border-box;
 }
-.navbar .btn:hover{
-    background: red!important;
+.page-wrap, footer {
+    padding: 3rem;
+    background-color: #000;
+    color: #ccc;
+    background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0naHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmcnIHdpZHRoPScxNTk4JyBoZWlnaHQ9JzE5MS44JyB2aWV3Qm94PScwIDAgMTAwMCAxMjAnPjxnIGZpbGw9J25vbmUnIHN0cm9rZT0nIzFlMTMyMicgc3Ryb2tlLXdpZHRoPSc3JyA+PHBhdGggZD0nTS01MDAgNzVjMCAwIDEyNS0zMCAyNTAtMzBTMCA3NSAwIDc1czEyNSAzMCAyNTAgMzBzMjUwLTMwIDI1MC0zMHMxMjUtMzAgMjUwLTMwczI1MCAzMCAyNTAgMzBzMTI1IDMwIDI1MCAzMHMyNTAtMzAgMjUwLTMwJy8+PHBhdGggZD0nTS01MDAgNDVjMCAwIDEyNS0zMCAyNTAtMzBTMCA0NSAwIDQ1czEyNSAzMCAyNTAgMzBzMjUwLTMwIDI1MC0zMHMxMjUtMzAgMjUwLTMwczI1MCAzMCAyNTAgMzBzMTI1IDMwIDI1MCAzMHMyNTAtMzAgMjUwLTMwJy8+PHBhdGggZD0nTS01MDAgMTA1YzAgMCAxMjUtMzAgMjUwLTMwUzAgMTA1IDAgMTA1czEyNSAzMCAyNTAgMzBzMjUwLTMwIDI1MC0zMHMxMjUtMzAgMjUwLTMwczI1MCAzMCAyNTAgMzBzMTI1IDMwIDI1MCAzMHMyNTAtMzAgMjUwLTMwJy8+PHBhdGggZD0nTS01MDAgMTVjMCAwIDEyNS0zMCAyNTAtMzBTMCAxNSAwIDE1czEyNSAzMCAyNTAgMzBzMjUwLTMwIDI1MC0zMHMxMjUtMzAgMjUwLTMwczI1MCAzMCAyNTAgMzBzMTI1IDMwIDI1MCAzMHMyNTAtMzAgMjUwLTMwJy8+PHBhdGggZD0nTS01MDAtMTVjMCAwIDEyNS0zMCAyNTAtMzBTMC0xNSAwLTE1czEyNSAzMCAyNTAgMzBzMjUwLTMwIDI1MC0zMHMxMjUtMzAgMjUwLTMwczI1MCAzMCAyNTAgMzBzMTI1IDMwIDI1MCAzMHMyNTAtMzAgMjUwLTMwJy8+PHBhdGggZD0nTS01MDAgMTM1YzAgMCAxMjUtMzAgMjUwLTMwUzAgMTM1IDAgMTM1czEyNSAzMCAyNTAgMzBzMjUwLTMwIDI1MC0zMHMxMjUtMzAgMjUwLTMwczI1MCAzMCAyNTAgMzBzMTI1IDMwIDI1MCAzMHMyNTAtMzAgMjUwLTMwJy8+PC9nPjwvc3ZnPg==);
+    background-attachment: fixed;
 }
+.page-wrap {
+    position: relative;
+    z-index: 1;
+}
+body {
+    margin: 0;
+    overflow-x: hidden;
+}
+#z-text-me{display: block;}
+header{padding: 3rem 0 5rem;
+    text-align: center;}
+
+    header nav a {
+        font-family: inkwell sans a,inkwell sans b;
+        text-decoration-skip: ink;
+        text-decoration: underline;
+        display: inline-block;
+        padding: 0 .3rem .1rem;
+        color: #54d0ff;
+        font-size: 1.2rem;
+        line-height: 1;
+    }
+    .homepage-title>span {
+        font-family: "inkwell serif a","inkwell serif b";
+        font-style: italic;
+        font-size: 1.5rem;
+        display: block;
+        text-transform: none;
+    }

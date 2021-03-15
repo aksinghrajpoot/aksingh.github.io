@@ -1,0 +1,1 @@
+var ztxt=new Ztextify("#z-text-me",{depth:"40px",layers:6,fade:!0,direction:"forwards",event:"pointer",eventRotation:"35deg"});
