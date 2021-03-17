@@ -22,6 +22,23 @@
     </nav>
     </header>
 </div>
+<script type="text/javascript">
+  function recentPost(json) {
+    for (var i = 0; i < json.feed.entry.length; i++) {
+      for (var j = 0; j < json.feed.entry[i].link.length; j++) {
+        if (json.feed.entry[i].link[j].rel == 'alternate') {
+          var postUrl = json.feed.entry[i].link[j].href;
+          break;
+        }
+      }
+      var postTitle = json.feed.entry[i].title.$t;
+      var postSummary = json.feed.entry[i].summary.$t;
+     var item = '<div class="item"><h3><a href=' + postUrl + '>' + postTitle + '</h3></a><p>' + postSummary + '</p></div>';
+      document.write(item);
+    }
+  }
+</script>
+<script src="https://downloads.xnetking.in/feeds/posts/summary/-/ads?max-results=5&alt=json-in-script&callback=recentPost"></script>
 
     <script src="main.js"></script>
   </body>
