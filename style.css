@@ -40,11 +40,14 @@ header{padding: 3rem 0 5rem;
         text-transform: none;
     }
 
-    #blogroll{border: 5px solid #54d0ff;padding: 20px;border-radius: 15px;}
-    #blogroll .inside a{padding: 3px 0px;display: inline-block;font-family: cursive;text-decoration: none;font-size: 14px;}
+    #blogroll{border: 5px solid #54d0ff;padding: 20px;border-radius: 15px;margin:10px auto}
+    #blogroll .inside .wrap-title{display:block;font-size: 24px;padding-bottom:3px;font-weight: 500; animation: Color 4s linear infinite; -webkit-animation: Color 4s ease-in-out infinite;  -webkit-text-decoration: underline wavy #FC6E51;
+        text-decoration: underline wavy #FC6E51;}
+      @keyframes Color{ 0%{ color:#A0D468; } 20%{ color:#4FC1E9; } 40%{ color:#FFCE54; } 60%{ color:#FC6E51; } 80%{ color:#ED5565; } 100%{ color:#AC92EC; } } @-moz-keyframes Color{ 0%{ color:#A0D468; } 20%{ color:#4FC1E9; } 40%{ color:#FFCE54; } 60%{ color:#FC6E51; } 80%{ color:#ED5565; } 100%{ color:#AC92EC; } } @-webkit-keyframes Color{ 0%{ color:#A0D468; } 20%{ color:#4FC1E9; } 40%{ color:#FFCE54; } 60%{ color:#FC6E51; } 80%{ color:#ED5565; } 100%{ color:#AC92EC; } }
+
+    #blogroll .inside a{padding: 3px 0px;display: inline-block;font-family: cursive;text-decoration: none;font-size: 16px;}
     #blogroll .inside a::after{content: '•';padding: 0px 5px;color: grey;}
     #blogroll .inside a:last-child::after{display: none}
-    @media only screen and (max-width:640px){#blogroll .inside a{font-size: 12px;}}
     #blogroll .inside a:nth-child(1n+0) { color: #f44336; } #blogroll .inside a:nth-child(2n+0) { color: #4caf50; } #blogroll .inside a:nth-child(3n+0) { color: #ff9800; } #blogroll .inside a:nth-child(4n+0) { color: #2196f3; }
     #footer{box-shadow: inset 0 -150px 200px -100px #000;
         padding: 10rem 1rem;
