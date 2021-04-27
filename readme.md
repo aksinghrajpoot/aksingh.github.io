@@ -1,11 +1,11 @@
 ### <img alt="handwavegif" src="https://user-images.githubusercontent.com/39513876/112366216-8cfe7400-8cfe-11eb-8116-7d3dbae20e97.gif" width='40' align="left"/> Hello there !
 ![version :25.03.2021](https://img.shields.io/badge/version-25.03.2021-informational) &nbsp;
 ![profile count](https://komarev.com/ghpvc/?username=aksinghrajpoot&color=red)&nbsp;
-[![GitHub AbhishekSinghDhadwal](https://img.shields.io/github/followers/aksinghrajpoot?label=follow&style=social)](https://github.com/aksinghrajpoot)&nbsp;
+[![GitHub aksinghrajpoot](https://img.shields.io/github/followers/aksinghrajpoot?label=follow&style=social)](https://github.com/aksinghrajpoot)&nbsp;
 ![build: passing](https://img.shields.io/badge/build-passing-success)
 ### 👨🏻‍💻 &nbsp;About Me
 
-💡 &nbsp; I'm a software developer and researcher at VNIT Nagpur, currently working in the field of adaptive sensing and multimodal detection of human behavioral
+💡 &nbsp; I'm a software engineer and researcher at XNetKing, currently working in the field of adaptive sensing and multimodal detection of human behavioral
 patterns.\
 🎓 &nbsp;I'm currently studying Computer Science and Engineering at Visvesvaraya National Institute of Technology, Nagpur (2017-2021).\
 🌱 &nbsp;I'm on track for learning more about Artificial Intelligence, Homomorphic Encryption, and Computer Vision.\
