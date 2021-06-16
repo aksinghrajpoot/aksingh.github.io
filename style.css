@@ -102,7 +102,6 @@ header{padding: 3rem 0 5rem;text-align: center;}
     }
     @keyframes movingplane {
         0% { 
-              margin-left: 100%;
           }
       }
 .footer{padding: 15px 0;}
