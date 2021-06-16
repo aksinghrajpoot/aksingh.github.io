@@ -20,10 +20,16 @@ body {
     background: linear-gradient(270deg,rgb(27 20 41),rgb(20 15 35));
 }
 .logo{margin-bottom: -40px;}
+
 #z-text-me{color: #63FF6A;font-family: 'sofia', cursive;letter-spacing: 1.2px;}
 header{padding: 3rem 0 5rem;text-align: center;}
    header nav a {
-        font-family: sans-serif;
+        font-family: sans-serif;}
+#z-text-me{display: block;color: #63FF6A;font-family: 'sofia', cursive;letter-spacing: 1.2px;}
+header{padding: 3rem 0 5rem;text-align: center;}
+   header nav a {
+        font-family: inkwell sans a,inkwell sans b;
+
         text-decoration-skip: ink;
         text-decoration: underline;
         display: inline-block;
