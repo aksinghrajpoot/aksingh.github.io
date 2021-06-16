@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Sofia');
 * {
     box-sizing: border-box;
 }
@@ -17,8 +18,9 @@
 body {
     margin: 0;
     overflow-x: hidden;
+    background: linear-gradient(270deg,rgb(27 20 41),rgb(20 15 35));
 }
-#z-text-me{display: block;}
+#z-text-me{display: block;color: #63FF6A;font-family: 'sofia', cursive;}
 header{padding: 3rem 0 5rem;
     text-align: center;}
 
@@ -56,3 +58,17 @@ header{padding: 3rem 0 5rem;
         left: 0;
         width: 100%;}
     #footer .credit{text-align: center;}
+
+    .preloader {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        width: 100%;
+        background: linear-gradient(270deg,rgb(27 20 41),rgb(20 15 35));
+        position: fixed;
+        top: 0;
+        left: 0;
+        z-index: 9999;
+        transition: opacity 0.3s linear;
+      }
