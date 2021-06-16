@@ -78,32 +78,7 @@ header{padding: 3rem 0 5rem;text-align: center;}
         transition: opacity 0.3s linear;
       }
 
-      #aeroplane{
-        position: absolute;
-        z-index: -500;
-        background-image: url('https://www.dl.dropboxusercontent.com/s/5beukq1zg37jlr7/airbus.png');
-        background-repeat: repeat-x;
-        width: 200px;
-        height: 70px;
-        -webkit-animation: movingplane 15s linear infinite;
-      -moz-animation: movingplane 15s linear infinite;
-        animation: movingplane 15s linear infinite;
-    }
-    #o-aeroplane{
-        position: absolute;
-        z-index: -500;
-        background-image: url('https://www.dl.dropboxusercontent.com/s/5beukq1zg37jlr7/airbus.png');
-        background-repeat: none;
-        width: 200px;
-        height: 70px;
-        -webkit-animation: movingplane 15s linear infinite;
-      -moz-animation: movingplane 15s linear infinite;
-        animation: movingplane 15s linear infinite;
-    }
-    @keyframes movingplane {
-        0% { 
-          }
-      }
+
 .footer{padding: 15px 0;}
 .footer .copyright span{color: #fff;font-family: sans-serif; text-align: center;display: block;font-size: 16px2;}
 .footer .social-icons ul{margin: 0;display: block;text-align: center;}
