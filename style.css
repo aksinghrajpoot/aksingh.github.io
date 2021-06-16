@@ -81,5 +81,5 @@ header{padding: 3rem 0 5rem;text-align: center;}
 
 .footer{padding: 15px 0;}
 .footer .copyright span{color: #fff;font-family: sans-serif; text-align: center;display: block;font-size: 16px2;}
-.footer .social-icons ul{margin: 0;display: block;text-align: center;}
+.footer .social-icons ul{padding:0;margin: 0;display: block;text-align: center;}
 .footer .social-icons ul li{list-style: none;display: inline;color: white;margin: 0 3px;font-size: 16px;}
