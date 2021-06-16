@@ -19,17 +19,15 @@ body {
     overflow-x: hidden;
     background: linear-gradient(270deg,rgb(27 20 41),rgb(20 15 35));
 }
-#z-text-me{display: block;color: #63FF6A;font-family: 'sofia', cursive;}
-header{padding: 3rem 0 5rem;
-    text-align: center;}
-
+#z-text-me{display: block;color: #63FF6A;font-family: 'sofia', cursive;letter-spacing: 1.2px;}
+header{padding: 3rem 0 5rem;text-align: center;}
+header::before{content: '{';position: absolute; font-size: 100px; margin-bottom: -100px; margin-left: -2.5em;}header::after{content: '}'; position: absolute; font-size: 100px; margin-top: -100px; margin-left: 2em;}header::before,header::after{color: #90a4ae;}
     header nav a {
         font-family: inkwell sans a,inkwell sans b;
         text-decoration-skip: ink;
         text-decoration: underline;
         display: inline-block;
         padding: 0 .3rem .1rem;
-        color: #54d0ff;
         font-size: 1.2rem;
         line-height: 1;
     }
@@ -40,6 +38,8 @@ header{padding: 3rem 0 5rem;
         display: block;
         text-transform: none;
     }
+    header nav a:nth-child(1n+0) { color: #f06292; } header nav a:nth-child(2n+0) { color: #80cbc4; } header nav a:nth-child(3n+0) { color: #ffb74d; } header nav a:nth-child(4n+0) { color: #90a4ae; }
+
 
     #blogroll{border: 5px solid #54d0ff;padding: 20px;border-radius: 15px;margin:10px auto}
     #blogroll .inside .wrap-title{display:block;font-size: 24px;padding-bottom:3px;font-weight: 500; animation: Color 4s linear infinite; -webkit-animation: Color 4s ease-in-out infinite;  -webkit-text-decoration: underline wavy #FC6E51;
