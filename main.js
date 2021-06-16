@@ -8,9 +8,12 @@ const fadeEffect = setInterval(() => {
   }
   if (preloader.style.opacity > 0) {
     preloader.style.opacity -= 0.1;
-  } else {
-    clearInterval(fadeEffect);
-  }
+  }else {
+    document.querySelector(
+      ".preloader").style.display = "none";
+    document.querySelector(
+      "body").style.visibility = "visible";
+}
 }, 200);
 
 window.addEventListener('load', fadeEffect);
