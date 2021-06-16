@@ -25,7 +25,7 @@ body {
 header{padding: 3rem 0 5rem;text-align: center;}
    header nav a {
         font-family: sans-serif;}
-#z-text-me{display: block;color: #63FF6A;font-family: 'sofia', cursive;letter-spacing: 1.2px;}
+#z-text-me{display: inline-block;color: #63FF6A;font-family: 'sofia', cursive;letter-spacing: 1.2px;}
 header{padding: 3rem 0 5rem;text-align: center;}
    header nav a {
         font-family: inkwell sans a,inkwell sans b;
@@ -103,85 +103,6 @@ header{padding: 3rem 0 5rem;text-align: center;}
     @keyframes movingplane {
         0% { 
               margin-left: 100%;
-              top:300px;
-          }
-          29% { 
-              margin-left: 50%; 
-              top: 50px; 
-              -webkit-transform: rotate(20deg);
-            -moz-transform: rotate(20deg);
-              -ms-transform: rotate(20deg);
-            transform: rotate(20deg);
-          }
-          31% {
-              -webkit-transform: rotate(-20deg);
-            -moz-transform: rotate(-20deg);
-              -ms-transform: rotate(-20deg);
-            transform: rotate(-20deg);
-          }
-          60% {
-              margin-left: 0%; 
-              top :300px;    
-          }
-          100% {
-              margin-left: -100%;
-              top: 300px;
-          }
-      }
-      @-webkit-keyframes movingplane {
-        0% { 
-              margin-left: 100%;
-              top:300px;
-          }
-          29% { 
-              margin-left: 50%; 
-              top: 50px; 
-              -webkit-transform: rotate(20deg);
-            -moz-transform: rotate(20deg);
-              -ms-transform: rotate(20deg);
-            transform: rotate(20deg);
-          }
-          31% {
-              -webkit-transform: rotate(-20deg);
-            -moz-transform: rotate(-20deg);
-              -ms-transform: rotate(-20deg);
-            transform: rotate(-20deg);
-          }
-          60% {
-              margin-left: 0%; 
-              top : 300px;    
-          }
-          100% {
-              margin-left: -100%;
-              top: 300px;
-          }
-      }
-      @-moz-keyframes movingplane {
-        0% { 
-              margin-left: 100%;
-              top:300px;
-          }
-          29% { 
-              margin-left: 50%; 
-              top: 50px; 
-              -webkit-transform: rotate(20deg);
-            -moz-transform: rotate(20deg);
-              -ms-transform: rotate(20deg);
-            transform: rotate(20deg);
-          }
-          31% {
-              -webkit-transform: rotate(-20deg);
-            -moz-transform: rotate(-20deg);
-              -ms-transform: rotate(-20deg);
-            transform: rotate(-20deg);
-          }
-          60% {
-              margin-left: 0%; 
-              top: 300px;    
-          }
-          100% {
-              margin-left: -100%;
-              top: 300px;
           }
       }
 .footer{padding: 15px 0;}
