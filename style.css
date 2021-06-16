@@ -19,11 +19,11 @@ body {
     overflow-x: hidden;
     background: linear-gradient(270deg,rgb(27 20 41),rgb(20 15 35));
 }
-#z-text-me{display: block;color: #63FF6A;font-family: 'sofia', cursive;letter-spacing: 1.2px;}
+.logo{margin-bottom: -40px;}
+#z-text-me{color: #63FF6A;font-family: 'sofia', cursive;letter-spacing: 1.2px;}
 header{padding: 3rem 0 5rem;text-align: center;}
-header::before{content: '{';position: absolute; font-size: 100px; margin-bottom: -100px; margin-left: -2.5em;}header::after{content: '}'; position: absolute; font-size: 100px; margin-top: -100px; margin-left: 2em;}header::before,header::after{color: #90a4ae;}
-    header nav a {
-        font-family: inkwell sans a,inkwell sans b;
+   header nav a {
+        font-family: sans-serif;
         text-decoration-skip: ink;
         text-decoration: underline;
         display: inline-block;
@@ -71,3 +71,114 @@ header::before{content: '{';position: absolute; font-size: 100px; margin-bottom:
         z-index: 9999;
         transition: opacity 0.3s linear;
       }
+
+      #aeroplane{
+        position: absolute;
+        z-index: -500;
+        background-image: url('https://www.dl.dropboxusercontent.com/s/5beukq1zg37jlr7/airbus.png');
+        background-repeat: repeat-x;
+        width: 200px;
+        height: 70px;
+        -webkit-animation: movingplane 15s linear infinite;
+      -moz-animation: movingplane 15s linear infinite;
+        animation: movingplane 15s linear infinite;
+    }
+    #o-aeroplane{
+        position: absolute;
+        z-index: -500;
+        background-image: url('https://www.dl.dropboxusercontent.com/s/5beukq1zg37jlr7/airbus.png');
+        background-repeat: repeat-x;
+        width: 200px;
+        height: 70px;
+        -webkit-animation: movingplane 15s linear infinite;
+      -moz-animation: movingplane 15s linear infinite;
+        animation: movingplane 15s linear infinite;
+    }
+    @keyframes movingplane {
+        0% { 
+              margin-left: 100%;
+              top:300px;
+          }
+          29% { 
+              margin-left: 50%; 
+              top: 50px; 
+              -webkit-transform: rotate(20deg);
+            -moz-transform: rotate(20deg);
+              -ms-transform: rotate(20deg);
+            transform: rotate(20deg);
+          }
+          31% {
+              -webkit-transform: rotate(-20deg);
+            -moz-transform: rotate(-20deg);
+              -ms-transform: rotate(-20deg);
+            transform: rotate(-20deg);
+          }
+          60% {
+              margin-left: 0%; 
+              top :300px;    
+          }
+          100% {
+              margin-left: -100%;
+              top: 300px;
+          }
+      }
+      @-webkit-keyframes movingplane {
+        0% { 
+              margin-left: 100%;
+              top:300px;
+          }
+          29% { 
+              margin-left: 50%; 
+              top: 50px; 
+              -webkit-transform: rotate(20deg);
+            -moz-transform: rotate(20deg);
+              -ms-transform: rotate(20deg);
+            transform: rotate(20deg);
+          }
+          31% {
+              -webkit-transform: rotate(-20deg);
+            -moz-transform: rotate(-20deg);
+              -ms-transform: rotate(-20deg);
+            transform: rotate(-20deg);
+          }
+          60% {
+              margin-left: 0%; 
+              top : 300px;    
+          }
+          100% {
+              margin-left: -100%;
+              top: 300px;
+          }
+      }
+      @-moz-keyframes movingplane {
+        0% { 
+              margin-left: 100%;
+              top:300px;
+          }
+          29% { 
+              margin-left: 50%; 
+              top: 50px; 
+              -webkit-transform: rotate(20deg);
+            -moz-transform: rotate(20deg);
+              -ms-transform: rotate(20deg);
+            transform: rotate(20deg);
+          }
+          31% {
+              -webkit-transform: rotate(-20deg);
+            -moz-transform: rotate(-20deg);
+              -ms-transform: rotate(-20deg);
+            transform: rotate(-20deg);
+          }
+          60% {
+              margin-left: 0%; 
+              top: 300px;    
+          }
+          100% {
+              margin-left: -100%;
+              top: 300px;
+          }
+      }
+.footer{padding: 15px 0;}
+.footer .copyright span{color: #fff;font-family: sans-serif; text-align: center;display: block;font-size: 16px2;}
+.footer .social-icons ul{margin: 0;display: block;text-align: center;}
+.footer .social-icons ul li{list-style: none;display: inline;color: white;margin: 0 3px;font-size: 16px;}
