@@ -22,7 +22,7 @@ header nav a:nth-child(1n+0) { color: #f06292; } header nav a:nth-child(2n+0) { 
 #blogroll{border: 4px solid #90909017;padding: 20px;border-radius: 15px;margin:10px auto}
 #blogroll .inside .wrap-title{display:block;font-size:24px;padding-bottom:3px;font-weight:500;animation:Color 4s linear infinite;-webkit-animation:Color 4s ease-in-out infinite;-webkit-text-decoration:underline wavy #fc6e51;text-decoration:underline wavy #fc6e51}
 @keyframes Color{0%{color:#a0d468}20%{color:#4fc1e9}40%{color:#ffce54}60%{color:#fc6e51}80%{color:#ed5565}100%{color:#ac92ec}}@-moz-keyframes Color{0%{color:#a0d468}20%{color:#4fc1e9}40%{color:#ffce54}60%{color:#fc6e51}80%{color:#ed5565}100%{color:#ac92ec}}@-webkit-keyframes Color{0%{color:#a0d468}20%{color:#4fc1e9}40%{color:#ffce54}60%{color:#fc6e51}80%{color:#ed5565}100%{color:#ac92ec}}
-#blogroll .inside a{padding: 3px 0px;display: inline-block;font-family: 'Delius Swash Caps', cursive;text-decoration: none;font-size: 16px;}
+#blogroll .inside a{padding: 3px 0px;display: inline;line-height:1.6em;font-family: 'Delius Swash Caps', cursive;text-decoration: none;font-size: 16px;}
 #blogroll .inside a::after{content: '•';padding: 0px 5px;color: grey;}
 #blogroll .inside a:last-child::after{display: none}
 #blogroll .inside a:nth-child(1n+0) { color: #f44336; } #blogroll .inside a:nth-child(2n+0) { color: #4caf50; } #blogroll .inside a:nth-child(3n+0) { color: #ff9800; } #blogroll .inside a:nth-child(4n+0) { color: #2196f3; }
@@ -34,7 +34,7 @@ header nav a:nth-child(1n+0) { color: #f06292; } header nav a:nth-child(2n+0) { 
 /*card ends*/
 /*techstack starts*/
 .tech-stack img{vertical-align: middle;}
-.tech-stack a{color: #9e9e9e!important;pointer-events: none;font-family: sans-serif!important;}
+.tech-stack a{color: #9e9e9e!important;display: inline-block!important; pointer-events: none;font-family: sans-serif!important;}
 /*techstack ends*/
 /*preloader starts*/
 .preloader{display:flex;justify-content:center;align-items:center;height:100vh;width:100%;background:linear-gradient(270deg,rgb(27 20 41),rgb(20 15 35));position:fixed;top:0;left:0;z-index:9999;transition:opacity .3s linear}
