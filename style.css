@@ -30,7 +30,7 @@ header nav a:nth-child(1n+0) { color: #f06292; } header nav a:nth-child(2n+0) { 
 /*card starts*/
 .card{box-shadow:4px 4px 4px rgb(255 255 255 / 8%),-4px -4px 4px rgb(0 0 0 / 56%),0 0 0 rgb(255 255 255 / 8%) inset,0 0 0 rgb(0 0 0 / 56%) inset;border:1px solid rgba(0,0,0,.08);padding:10px 15px;max-width:720px;margin:10px auto;border-radius:10px}
 .card .heading{color:#717171;font-weight:400;letter-spacing:1px;text-shadow:1px 1px #fff;font-size:1.4em}
-.card .sub-heading{color:#5a5a5a}
+.card .sub-heading{color:#5a5a5a;font-size: 13px;}
 /*card ends*/
 /*techstack starts*/
 .tech-stack img{vertical-align: middle;}
