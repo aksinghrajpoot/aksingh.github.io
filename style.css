@@ -36,6 +36,12 @@ header nav a:nth-child(1n+0) { color: #f06292; } header nav a:nth-child(2n+0) { 
 .tech-stack img{vertical-align: middle;}
 .tech-stack a{color: #9e9e9e!important;display: inline-block!important; pointer-events: none;font-family: sans-serif!important;}
 /*techstack ends*/
+/*project-stack starts*/
+.project-stack ul{margin: 0;padding: 0;}
+.project-stack ul li{list-style: none;color: #90a4ae; }
+.project-stack ul li span{font-weight: 600;}
+.project-stack ul li a{color:#ffeb3b!important;background:#607d8b;font-family:sans-serif!important;padding:0 7px!important}
+/*project-stack ends*/
 /*preloader starts*/
 .preloader{display:flex;justify-content:center;align-items:center;height:100vh;width:100%;background:linear-gradient(270deg,rgb(27 20 41),rgb(20 15 35));position:fixed;top:0;left:0;z-index:9999;transition:opacity .3s linear}
 /*preloader ends*/
